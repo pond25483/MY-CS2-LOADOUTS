@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="th" data-bs-theme="light">
+
+<head>
+    <title>MY CS2 LOADOUTS</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <!-- CSS ของเรา (ใช้ไฟล์เดียวกันทั้ง 2 หน้า) -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ฟอนต์: Mitr (ข้อความหลัก) + Share Tech Mono (ป้ายตัวเล็กสไตล์ HUD) -->
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+
+<!-- data-bs-spy = เมนูด้านบนไฮไลต์ตาม section ที่เลื่อนอยู่ -->
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-root-margin="-30% 0px -60% 0px">
+
+    <!-- แถบความคืบหน้าการเลื่อนหน้า (เส้นสีส้มบนสุด) -->
+    <div id="scroll-progress"></div>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+            <div class="container">
+                <!-- โลโก้ -->
+                <a class="navbar-brand" href="index.html#home">
+                    <img src="images/cs-2-logo.png" alt="CS2 Logo" height="30" class="d-inline-block align-text-top">
+                </a>
+                <!-- ปุ่มแฮมเบอร์เกอร์ (มือถือ) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- เมนู: COLLECTION ลิงก์ไปหน้า collection.html ส่วนที่เหลือเลื่อนไปที่ section -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#story">STORY</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#collection">COLLECTION</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===================== HOME ===================== -->
+        <section id="home" class="min-vh-100 d-flex align-items-center bg-dark text-white pt-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- ฝั่งซ้าย: ข้อความหลัก -->
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <h1 class="display-3 fw-bold mb-4 reveal">MY CS2 LOADOUTS</h1>        
+                        <p class="lead mb-4 text-white-50 reveal" data-delay="150">           
+                            รวม skin loadout จากเกม cs2 ที่ชอบ by vichaya_
+                        </p>
+                        <a href="#collection" class="btn btn-outline-light btn-lg px-4 rounded-3 btn-hover reveal" data-delay="300">View detail</a> 
+                    </div>
+                    <!-- ฝั่งขวา: รูปหลัก (ลอยขึ้นลง + parallax) -->
+                    <div class="col-lg-6 mt-5 mt-lg-0 text-center" data-parallax="0.08">
+                        <img src="images/main.jpg" alt="Top Skin" class="img-fluid drop-shadow hero-img" style="max-height: 80vh;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== STORY ===================== -->
+        <section id="story" class="py-5 bg-light">
+            <div class="container py-2">
+                <div class="text-center mb-5 reveal">
+                    <p class="section-eyebrow mb-2">OUR STORY</p>          
+                    <h2 class="display-5 fw-bold">STORY</h2>               
+                    <p class="text-muted">เรื่องราวของผมกับสกิน CS2</p>      
+                </div>
+
+                <!-- ---------- ตอนที่ 01 (แก้ข้อความ/รูปได้) ---------- -->
+                <div class="row align-items-center g-5 mb-5">
+                    <div class="col-md-6 reveal from-left">
+                        <div class="story-img-wrap shadow-sm"><img src="images/1.6.jpg" alt="Story 01" class="story-img"></div>
+                    </div>
+                    <div class="col-md-6 reveal from-right">
+                        <span class="story-number">01</span>   
+                        <h3 class="fw-bold mt-2">จุดเริ่มต้น</h3>      
+                        <p class="text-muted">ผมเริ่มเล่น Counter strike ครั้งแรกตอนอายุประมาณ ป.2-3 น่าจะภาค global offensive พอดี, ตอนนั้นเล่นเพราะเป็นเกมที่เพื่อนชอบเล่นกัน ช่วงแรกก็สนใจแค่เป็นเกมยิงปืนและเล่นกับเพื่อนเป็นหลัก จนเริ่มเห็นผู้เล่นคนอื่นใช้ปืนสีสวยๆ ที่มีลวดลายแตกต่างกัน เลยเริ่มรู้สึกอยากมีเป็นของตัวเองบ้าง หลังจากนั้นก็เริ่มสนใจสกินมากขึ้น ทั้งเรื่องดีไซน์ สีสัน และความหายากของแต่ละชิ้น จนกลายเป็นอีกหนึ่งสิ่งที่ทำให้ผมสนุกกับเกมนี้มาจนถึงทุกวันนี้</p>
+                    </div>
+                </div>
+
+                <!-- ---------- ตอนที่ 02 (แก้ข้อความ/รูปได้) ---------- -->
+                <div class="row align-items-center g-5 mb-5 flex-md-row-reverse">
+                    <div class="col-md-6 reveal from-right">
+                        <div class="story-img-wrap shadow-sm"><img src="images/ds.skin.webp" alt="Story 02" class="story-img"></div> 
+                    </div>
+                    <div class="col-md-6 reveal from-left">
+                        <span class="story-number">02</span> 
+                        <h3 class="fw-bold mt-2">สกินชิ้นแรก</h3>     
+                        <p class="text-muted">สกินชิ้นแรกของผมคือ Desert Eagle "Oxide Blaze" จากการเปิดกล่องครั้งแรก ตอนนั้นผมเก็บค่าขนมได้ 85 บาท เพื่อซื้อกุญแจมาเปิดกล่อง พอได้ลายที่อยากได้ก็โคตรดีใจเลย ถึงจะเป็นสกินระดับไม่ได้หายากมากและไม่ได้มีราคาสูง แต่สำหรับผมมันมีค่ามาก เพราะเป็นหนึ่งในลายที่อยากได้มาตั้งแต่แรก หลังจากนั้นผมก็เริ่มรู้สึกว่าสกินไม่ได้มีแค่เรื่องราคา แต่ยังมีความชอบและความทรงจำของเราอยู่ในนั้นด้วย</p>          
+                    </div>
+                </div>
+
+                <!-- ---------- ตอนที่ 03 (แก้ข้อความ/รูปได้) ---------- -->
+                <div class="row align-items-center g-5 mb-5">
+                    <div class="col-md-6 reveal from-left">
+                        <div class="story-img-wrap shadow-sm"><img src="images/pic2.jpg" alt="Story 03" class="story-img"></div> 
+                    </div>
+                    <div class="col-md-6 reveal from-right">
+                        <span class="story-number">03</span>   
+                        <h3 class="fw-bold mt-2">สู่การสร้าง Loadout</h3>     
+                        <p class="text-muted">ตอนแรกผมแค่ชอบใช้สกินปืนสวยๆ ในเกม แต่พอเล่นไปเรื่อยๆ ก็เริ่มสนุกกับการเลือกสกินที่สีเข้ากัน ลองใช้ธีมไปในทางเดียวกัน บางครั้งก็ลองจัดเซ็ตจากสกินที่ราคาไม่แพงให้ดูเข้ากันที่สุด พอมองดี ๆ มันทำให้ผมนึกถึงสิ่งที่ชอบในกราฟิกดีไซน์เหมือนกัน ทั้งเรื่องสี รูปทรง และการจัดองค์ประกอบ เลยเกิดไอเดียอยากทำเว็บไซต์ CS2 Skin Collection ที่รวบรวมสกินที่ผมชอบและเคยใช้ เป็นพื้นที่แชร์ความชอบและไอเดียการจัดเซ็ตในแบบของตัวเอง</p>           
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== COLLECTION ===================== -->
+        <section id="collection" class="py-5 bg-dark text-white">
+            <div class="container py-2">
+                <div class="text-center mb-5 reveal">
+                    <h2 class="display-3 fw-bold">TOP COLLECTION</h2>
+                    <p class="text-white-50">Top 6 loadout ที่ผมชอบที่สุด</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+
+                    <!-- 1 -->
+                    <div class="col-md-4 reveal" data-delay="0">
+                        <a href="collection.html#set-001" class="text-decoration-none text-reset">
+                            <div class="card h-100 border-0 shadow-sm card-hover">
+                                <img src="images/wh.png" class="card-img-top" alt="Loudout 1">
+                                <div class="card-body text-center">
+                                    <h5 class="fw-bold">White</h5>
+                                    <p class="text-muted small">คลาสสิก เรียบหรู ดูดี</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="col-md-4 reveal" data-delay="120">
+                        <a href="collection.html#set-002" class="text-decoration-none text-reset">
+                            <div class="card h-100 border-0 shadow-sm card-hover">
+                                <img src="images/purple.png" class="card-img-top" alt="Loudout 2">
+                                <div class="card-body text-center">
+                                    <h5 class="fw-bold">Purple moon eco</h5>
+                                    <p class="text-muted small">ดวงจันทร์สีม่วงสำหรับคนประหยัดงบ</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="col-md-4 reveal" data-delay="240">
+                        <a href="collection.html#set-003" class="text-decoration-none text-reset">
+                            <div class="card h-100 border-0 shadow-sm card-hover">
+                                <img src="images/ye.png" class="card-img-top" alt="Loudout 3">
+                                <div class="card-body text-center">
+                                    <h5 class="fw-bold">Tiger in da jungle</h5>
+                                    <p class="text-muted small">เสือร้ายในป่าพงไพร</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="col-md-4 reveal" data-delay="0">
+                        <a href="collection.html#set-004" class="text-decoration-none text-reset">
+                            <div class="card h-100 border-0 shadow-sm card-hover">
+                                <img src="images/fade_1.png" class="card-img-top" alt="Loudout 4">
+                                <div class="card-body text-center">
+                                    <h5 class="fw-bold">Fade eco</h5>
+                                    <p class="text-muted small">fade ราคาประหยัดสำหรับคนงบน้อย</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="col-md-4 reveal" data-delay="120">
+                        <a href="collection.html#set-005" class="text-decoration-none text-reset">
+                            <div class="card h-100 border-0 shadow-sm card-hover">
+                                <img src="images/blue_1.png" class="card-img-top" alt="Loudout 5">
+                                <div class="card-body text-center">
+                                    <h5 class="fw-bold">Midnight blue</h5>
+                                    <p class="text-muted small">มนต์เสน่ห์ยามค่ำคืน</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="col-md-4 reveal" data-delay="240">
+                        <a href="collection.html#set-006" class="text-decoration-none text-reset">
+                            <div class="card h-100 border-0 shadow-sm card-hover">
+                                <img src="images/red_1.png" class="card-img-top" alt="Loudout 6">
+                                <div class="card-body text-center">
+                                    <h5 class="fw-bold">Red jungle</h5>
+                                    <p class="text-muted small">พื้นป่าจะเต็มไปด้วยเลือด</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- ปุ่มไปหน้า collection เต็ม -->
+                <div class="text-center mt-5 reveal">
+                    <a href="collection.html" class="btn btn-outline-dark btn-lg rounded-pill px-5 btn-hover">ดูคอลเลกชั่นทั้งหมด</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== ABOUT ===================== -->
+        <section id="about" class="py-4 bg-white text-dark">
+            <div class="container py-3">
+                <div class="text-center mb-5 reveal">
+                    <p class="section-eyebrow mb-2">ABOUT ME</p>
+                    <h2 class="display-5 fw-bold">ABOUT</h2>
+                    <p class="text-muted">>รู้จักคนทำเว็บนี้</p>
+                </div>
+                <div class="row align-items-center g-5">
+                    <!-- รูปโปรไฟล์ -->
+                    <div class="col-md-5 text-center reveal from-left">
+                        <img src="images/Ig samll post.png" alt="vichaya_" class="img-fluid rounded-circle about-photo drop-shadow tilt">
+                    </div>
+                    <!-- ข้อมูลตัวเอง -->
+                    <div class="col-md-7 reveal from-right">
+                        <h3 class="fw-bold mb-3">สวัสดีครับ ผม vichaya_</h3>
+                        <p class="text-muted">ผมอายุ 21 ปี เรียนอยู่สาขากราฟิกดีไซน์ที่ SPU ชอบเล่นเกม ชอบทำกราฟิกอาร์ต ปกติชอบเล่น Counter strike อยู่แล้ว เลยรู้สึกว่าสกินแต่ละลายมีเอกลักษณ์และมีความน่าสนใจไม่ต่างจากงานออกแบบ เลยอยากลองนำความชอบทั้งเกมและกราฟิกมารวมกัน จนกลายเป็นเว็บไซต์ CS2 Skin Collection นี้</p>
+                        <!-- แท็กความสนใจ -->
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="badge rounded-pill bg-dark border border-dark fw-light px-3 py-2">Fps game</span>
+                            <span class="badge rounded-pill bg-dark border border-dark fw-light px-3 py-2">Skin Collector</span>
+                            <span class="badge rounded-pill bg-dark border border-dark fw-light px-3 py-2">Web Design</span>
+                        </div>
+                        <!-- สถิติ: ตัวเลขนับขึ้นเอง แก้ data-target / data-suffix -->
+                        <div class="row g-3">
+                            <div class="col-4"><div class="stat-box text-center"><div class="stat-number count-up" data-target="6">21K</div><div class="stat-label">Elo Rank</div></div></div>
+                            <div class="col-4"><div class="stat-box text-center"><div class="stat-number count-up" data-target="9">10</div><div class="stat-label">Collections</div></div></div>
+                            <div class="col-4"><div class="stat-box text-center"><div class="stat-number count-up" data-target="3" data-suffix="+">9+</div><div class="stat-label">Years Playing</div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="bg-dark text-white pt-5 pb-4 border-top border-secondary">
+        <div class="container">
+            <div class="row g-4">
+                <!-- คอลัมน์ 1: คำอธิบายเว็บ -->
+                <div class="col-lg-5 col-md-12">
+                    <h4 class="fw-bold mb-3">CS2 SKIN COLLECTION</h4>
+                    <p class="text-white-50 small pe-lg-5">
+                        เว็บนี้เริ่มต้นจากความชอบส่วนตัวที่มีต่อสกิน CS2<br>ผมชอบสำรวจสกินปืน สีสัน และลวดลายที่แตกต่างกัน<br>เลยอยากทำเว็บไซต์เพื่อรวบรวมและโชว์สกินที่ชอบไว้ในที่เดียว
+                    </p>
+                </div>
+                <!-- คอลัมน์ 2: เมนู -->
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3 text-uppercase" style="letter-spacing: 1px;">Menu</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#home" class="text-white-50 text-decoration-none footer-link">HOME</a></li>
+                        <li class="mb-2"><a href="#story" class="text-white-50 text-decoration-none footer-link">STORY</a></li>
+                        <li class="mb-2"><a href="#collection" class="text-white-50 text-decoration-none footer-link">COLLECTION</a></li>
+                        <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none footer-link">ABOUT</a></li>
+                    </ul>
+                </div>
+                <!-- คอลัมน์ 3: ช่องทางติดต่อ -->
+                <div class="col-lg-4 col-md-6">
+                    <h6 class="fw-bold mb-3 text-uppercase" style="letter-spacing: 1px;">Contact</h6>
+                    <p class="text-white-50 small mb-3">Follow เพื่อรับกล่องพร้อมโบนัส</p>
+                    <div class="d-flex gap-3">
+                        <a href="https://cs.money/th/" target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-4 social-btn">cs.money</a>
+                        <a href="https://web.telegram.org" target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-4 social-btn">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary mt-5 mb-4">
+            <div class="text-center text-white-50 small"> Designed by vichayaz_.</div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+	
+	<!-- Page interactions -->
+    <script>
+        const backToTop = document.getElementById('backToTop');
+
+        function updateBackToTop() {
+            backToTop.classList.toggle('is-visible', window.scrollY > 350);
+        }
+
+        window.addEventListener('scroll', updateBackToTop, { passive: true });
+
+        backToTop.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        updateBackToTop();
+    </script>
+	
+</body>
+
+</html>
